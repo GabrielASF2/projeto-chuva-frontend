@@ -1,0 +1,73 @@
+:root {
+    --title-orange: #ed7839;
+    --title-res-box: #4e4e4e;
+    --title-res-txt: #5c5c5c;
+    --bg-orange: #ed7839;
+    --bg-menuside: #fdf1eb;
+    --hd-color: #fdf1eb;
+    --menuside-color: #725c5c;
+    --content-color: #4d4d4d4d;
+    --menuside-color-gradient: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+    --border-shadow: #e7e7e7;
+    --bg-color: #ffff;
+    /*Fontes*/
+    --title-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --title-font-side: "Quicksand", sans-serif;
+  }
+
+
+
+
+/* MENU LATERAL */
+.box-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--menuside-color-gradient);
+    box-shadow: 0 0 5px #9fa7a1;
+    height: 68px;
+    font: 700 1.875rem var(--title-font);
+    color: var(--bg-color);
+
+    width: 220px;
+}
+
+/* .logo {
+    display: flex;
+    
+    font: 700 1.875rem var(--title-font);
+    color: var(--bg-color);
+
+    margin: 0;
+    justify-content: center;
+
+} */
+
+/* .nav-side {
+    border-right: 2px solid #e7e7e7;
+    box-shadow: 1 px -3px 8px 1px ;
+} */
+
+.nav-side a {
+    display: flex;
+    width: 13.75rem;
+    height: 2.188rem;
+
+    text-decoration: none;
+    list-style: none;
+
+    padding: 0.625rem;
+    padding-left: 1.5rem;
+    background: var(--bg-color);
+    font: 500 1rem var(--title-font-side);
+    color: var(--menuside-color);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+nav a:hover {
+    background-color:var(--bg-menuside);
+    border-left: 0.5rem solid;
+    border-left-color: rgb(241, 132, 62);
+  }
+  
